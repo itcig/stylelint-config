@@ -1,0 +1,45 @@
+{
+	"name": "@itcig/stylelint-config",
+	"version": "1.0.0",
+	"license": "MIT",
+	"description": "Shareable Stylelint config for all @itcig projects",
+	"author": {
+		"name": "ITCIG",
+		"email": "it@capinfogroup.com"
+	},
+	"homepage": "https://github.com/itcig/stylelint-config#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/itcig/stylelint-config.git"
+	},
+	"main": "index.js",
+	"module": "index.js",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {},
+	"dependencies": {
+		"stylelint": "^14.5.3",
+		"stylelint-config-standard-scss": "^3.0.0",
+		"stylelint-scss": "^4.1.0"
+	},
+	"bugs": {
+		"url": "https://github.com/itcig/itcig/issues"
+	},
+	"keywords": [
+		"config",
+		"env",
+		"formatting",
+		"stylelint",
+		"stylelint-config",
+		"css",
+		"scss",
+		"sass"
+	],
+	"extra": {
+		"autotagger": true,
+		"autorelease": true,
+		"npmjs-autopublish": true,
+		"mirror-repo": "itcig/stylelint-config"
+	}
+}
